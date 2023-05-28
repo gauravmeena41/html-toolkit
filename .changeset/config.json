@@ -1,11 +1,12 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@2.3.0/schema.json",
   "changelog": "@changesets/cli/changelog",
+  "registry": "https://registry.npmjs.org/",
   "commit": false,
   "fixed": [],
   "linked": [],
-  "access": "restricted",
-  "baseBranch": "main",
+  "access": "public",
+  "baseBranch": "master",
   "updateInternalDependencies": "patch",
   "ignore": []
 }
