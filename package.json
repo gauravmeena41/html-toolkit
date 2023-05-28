@@ -1,0 +1,22 @@
+{
+  "name": "html-toolkit",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup src/index.ts --format cjs,esm --dts && python3 -c \"import shutil; shutil.copytree('python', 'dist/python')\"",
+    "lint": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "@types/node": "^20.2.4",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  }
+}
