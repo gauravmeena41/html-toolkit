@@ -1,10 +1,5 @@
 lockfileVersion: '6.0'
 
-dependencies:
-  wkhtmltopdf-binary:
-    specifier: ^1.0.2
-    version: 1.0.2
-
 devDependencies:
   '@changesets/cli':
     specifier: ^2.26.1
@@ -2380,10 +2375,6 @@ packages:
     dependencies:
       isexe: 2.0.0
     dev: true
-
-  /wkhtmltopdf-binary@1.0.2:
-    resolution: {integrity: sha512-onBd4r1pObIVj3YMDPqFlyrGGaZS8Grkr3o5GAFzWIdIN+ghtuDWMUQtWilKRasWTwqM6UeTFqxsG7x/Scu44A==}
-    dev: false
 
   /wrap-ansi@6.2.0:
     resolution: {integrity: sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==}
