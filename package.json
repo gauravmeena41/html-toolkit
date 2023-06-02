@@ -19,5 +19,8 @@
     "@types/node": "^20.2.4",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "wkhtmltopdf-binary": "^1.0.2"
   }
 }
